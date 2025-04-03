@@ -2,7 +2,7 @@ name: Log Time Job
 on:
   schedule:
     - cron: "*/30 * * * *"  # Runs every 30 minutes
-  workflow_dispatch:         # Enable manual trigger
+  workflow_dispatch:         
 jobs:
   log_time:
     runs-on: ubuntu-latest
