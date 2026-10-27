@@ -1,1 +1,1 @@
-Total log entries: 16383
+Total log entries: 16384
